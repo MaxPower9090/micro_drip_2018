@@ -7,12 +7,12 @@ make_txt.py
   quick@dirty way to create a yyyymmdd.txt file in the right directory
   
 temp_write.py
-  makes a temperature measure with the DTH11 sensor (DTH Files have to be imported to the same folder) 
-  then the value is writen to the file yyyymmdd.txt to the end of the file
+  measures the temperature with the DHT11 sensor (Adafruit_Python_DHT Files have to be imported to the same folder) 
+  and writes the value into the file yyyymmdd.txt to the end of the file
   
 drip_time.py
-  is a module that makes an average temperature of the measured temperature values stored in the yyyymmdd.txt and 
-  returns a time in second back 
+  is a module that calcualtes the average temperature of the measured values stored in the yyyymmdd.txt and 
+  returns a time in seconds back 
   --> logic should be modified to your needs
     
 zeitschalter.py
