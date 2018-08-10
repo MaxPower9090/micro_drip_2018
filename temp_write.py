@@ -13,7 +13,7 @@ sensor = 11	# type of DHT Sensor (11 = DHT11 / 12 = DHT12 )
 pin = 27	# pin on the raspberry
 
 filename = time.strftime("%Y%m%d.txt")		#filename by date
-filename = "/home/pi/Temp/"+filename		# I'm a python nooob and don't know how to solve this problem more elegantly ;)
+filename = "/home/pi/Temp/"+filename		
 
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin) 	#get the temp from DHT Sensor
 wert = temperature + temp_correction				#correction for the value if needed
