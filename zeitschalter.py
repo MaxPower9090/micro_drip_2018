@@ -8,7 +8,7 @@ import drip_time
 
 zeit = 180  #backup if  drip_time() fails 
 zeit = drip_time.drip_time() # drip_time() returns a delay time calculated by the average temperature
-print ("zeit")
+
 
 GPIO.setmode(GPIO.BCM)
 RELAIS_1_GPIO = 17
